@@ -23,7 +23,19 @@
     "erasableSyntaxOnly": true,
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true,
-    "baseUrl": "./src"
+    /* Alias paths */
+    "baseUrl": "./src",
+    "paths": {
+      "@components/*": ["components/*"],
+      "@defines/*": ["defines/*"],
+      "@pages/*": ["pages/*"],
+      "@utils/*": ["utils/*"],
+      "@hooks/*": ["hooks/*"],
+      "@types/*": ["types/*"],
+      "@assets/*": ["assets/*"],
+      "@services/*": ["services/*"],
+      "@store/*": ["store/*"]
+    }
   },
   "include": ["src"]
 }
