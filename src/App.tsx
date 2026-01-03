@@ -3,15 +3,10 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 
 import './App.css'
-import { Themes } from '@defines/common'
 
 function App() {
   const [count, setCount] = useState(0)
-  console.log(Themes)
-  // src/test-console.ts
-  console.log('This should show error') // Lỗi đỏ
-  console.error('This is allowed') // Không lỗi
-  console.warn('This is allowed') // Không lỗi
+
   return (
     <>
       <div>

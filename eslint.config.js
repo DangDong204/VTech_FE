@@ -21,8 +21,6 @@ export default defineConfig([
       globals: globals.browser
     },
     plugins: {
-      'react-hooks': reactHooks,
-      'react-refresh': reactRefresh,
       prettier: eslintPluginPrettier
     },
 
@@ -45,7 +43,7 @@ export default defineConfig([
       'no-console': [
         'error',
         {
-          allow: ['warn', 'error', 'info'] // Cho phép một số console hợp lệ
+          //allow: ['warn', 'error', 'info'] // Cho phép một số console hợp lệ
         }
       ],
       'react-refresh/only-export-components': ['warn', { allowConstantExport: true }]
